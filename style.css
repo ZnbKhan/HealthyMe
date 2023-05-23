@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:150px 300px  500px 200px;
+}
+
+.top-div{
+   background-color: #262424;
+   grid-template-areas: "... logo ... ... about  signup...";
+}
+
+
+.second-div{
+
+}
+
+.middle-div{
+
+}
+
+.last-div{
+
+}
